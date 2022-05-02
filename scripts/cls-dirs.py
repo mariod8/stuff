@@ -1,4 +1,5 @@
-# Iterates over directories where root is script dir and changes folder names to lowercase and '-' and separator
+# Python 3
+# Iterates over directories and changes folder names to lowercase and '-' and separator. root dir is where this script is placed
 
 import os
 
