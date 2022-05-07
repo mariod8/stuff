@@ -1,15 +1,4 @@
-﻿---
-AlignAfterOpenBracket: Align
-AlignConsecutiveMacros: 'false'
-AlignConsecutiveAssignments: 'false'
-AlignConsecutiveDeclarations: 'false'
-AlignEscapedNewlines: DontAlign
-AlignOperands: 'true'
-AlignTrailingComments: 'false'
-AllowAllArgumentsOnNextLine: 'true'
-AllowAllConstructorInitializersOnNextLine: 'true'
-AllowAllParametersOfDeclarationOnNextLine: 'true'
-AllowShortBlocksOnASingleLine: 'false'
+﻿AllowShortBlocksOnASingleLine: 'false'
 AllowShortCaseLabelsOnASingleLine: 'false'
 AllowShortFunctionsOnASingleLine: None
 AllowShortIfStatementsOnASingleLine: Never
@@ -23,6 +12,5 @@ BinPackParameters: 'false'
 BreakAfterJavaFieldAnnotations: 'false'
 BreakBeforeBinaryOperators: All
 TabWidth: '4'
+IndentWidth: 4
 UseTab: Never
-
-...
