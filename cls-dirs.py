@@ -1,5 +1,6 @@
 # Python 3
 # Iterates over directories and changes folder names to lowercase and '-' and separator. root dir is where this script is placed
+# dir: "Hello_WOrld" -> "hello-world"
 
 import os
 import re
@@ -11,8 +12,8 @@ def scan_dir(dir: str):
         f = os.path.join(dir, filename)
         
         if os.path.isdir(f):
-            if(f[0] == "."):
-                pass
+            if(filename.startswith(".")):
+                continue
             g = re.sub("[_]", "-", f.lower())
             try:
                 os.rename(f, g)
