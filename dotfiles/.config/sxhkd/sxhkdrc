@@ -80,7 +80,7 @@ super + {Left,Down,Up,Right}
 # screenshots
 #
 super + shift + s
-	scrot "$HOME/Screenshots/%Y-%m-%d_%H.%M.%S.png" -s -e 'cpcl -t image/png -i $f'
+	scrot "$HOME/screenshots/%Y-%m-%d_%H.%M.%S.png" -s -e 'xclip -sel clip -t image/png -i $f'
 
 # launchers
 super + Return
